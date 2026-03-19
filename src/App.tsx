@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Search, CheckCircle2, XCircle, GraduationCap } from 'lucide-react';
+import { Search, CheckCircle2, XCircle } from 'lucide-react';
 import { supabase } from './lib/supabase';
 import { Student } from './types/student';
 
@@ -47,9 +47,7 @@ function App() {
       <div className="container mx-auto px-4 py-12">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">
-            <div className="inline-flex items-center justify-center w-20 h-20 bg-blue-600 rounded-full mb-6">
-              <GraduationCap className="w-12 h-12 text-white" />
-            </div>
+            <img src="/WilmingtonLogoOri.png" alt="Wilmington Logo" className="h-24 mx-auto mb-6" />
             <h1 className="text-4xl font-bold text-gray-900 mb-3">
               Student Verification Portal
             </h1>
